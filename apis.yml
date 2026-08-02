@@ -1,8 +1,23 @@
 aid: visterra
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/visterra.png
 name: Visterra
-description: 'Visterra is a company surfaced as a portfolio company of lux-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: biotech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Visterra is a Waltham, Massachusetts biologics research company developing
+  antibody-based therapeutics for patients with immune-mediated and other difficult-to-treat
+  diseases. It combines computational design, artificial intelligence, and experimental
+  research with agile preclinical development and manufacturing. Visterra publishes no
+  public developer API, SDK, or developer portal; this profile is maintained in the API
+  Evangelist network for company tracking and enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/visterra/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +27,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Biotech
+- Biologics
+- Therapeutics
+- Antibodies
+- Pharmaceuticals
+- Life Sciences
+- Drug Discovery
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +44,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/visterra-domain-security.yml
 - type: Website
   url: https://www.visterrainc.com
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
